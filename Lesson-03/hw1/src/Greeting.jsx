@@ -1,8 +1,8 @@
 import React from 'react';
 
 const getAge = (date) => {
-  const ageDate = new Date(new Date() - date.getTime());
-  return Math.abs(ageDate.getUTCFullYear() - 1970);
+  const ageDate = new Date(new Date() );
+  return Math.abs(ageDate.getUTCFullYear() -2004);
 };
 
 export default (props) => (
