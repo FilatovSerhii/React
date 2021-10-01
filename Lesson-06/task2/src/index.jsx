@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Colors from './Colors.jsx';
+import Mailbox from './Mailbox.jsx';
 import './index.scss';
 
 const rootElement = document.querySelector('#root');
 
-ReactDOM.render(<Colors />, rootElement);
-
+ReactDOM.render(<Mailbox unreadMessages={[2,1]} />, rootElement);

@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Colors from './Colors.jsx';
+import Page from './Page.jsx';
 import './index.scss';
 
 const rootElement = document.querySelector('#root');
 
-ReactDOM.render(<Colors />, rootElement);
-
+ReactDOM.render(<Page />, rootElement);
