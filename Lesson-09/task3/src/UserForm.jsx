@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class UserForm extends Component {
   handleSubmit = () => {
-     [...new FormData(this.formRef)].reduce(
+    return [...new FormData(this.formRef)].reduce(
         (acc, [name, value]) => ({...acc, [name]: value}), {}
       );
   }
