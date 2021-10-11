@@ -22,7 +22,8 @@ class Expand extends Component {
               : <i className="fas fa-chevron-down"></i> 
           }</button>
         </div>
-        {!this.state.isOpen ? null : (<div className="expand__content">{this.props.children}</div>)}
+        {!this.state.isOpen ? 
+        null : (<div className="expand__content">{this.props.children}</div>)}
       </div>
     );
   }
