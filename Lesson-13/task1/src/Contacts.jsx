@@ -7,7 +7,6 @@ function Contacts() {
       <h1>Contacts</h1>
       <p>We are here 🗺</p>
       <Link to="/">Go home</Link>
-      {/* <a href="/">Go home</a> */}
     </div>
   );
 }
