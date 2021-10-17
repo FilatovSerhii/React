@@ -2,8 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import User from './User.jsx';
 
-const App = () => {
-  return (
+const App = () => (
     <div className="page">
       <div className="page__content">
         <h1>Users</h1>
@@ -28,6 +27,5 @@ const App = () => {
       </div>
     </div>
   );
-};
 
 export default App;
